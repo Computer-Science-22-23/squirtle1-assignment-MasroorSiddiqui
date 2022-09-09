@@ -27,7 +27,7 @@ public class BulbasaurThing extends PokeThing {
 	 * <code>BulbasaurThing</code> places a <code>FlowerThing</code> in the current spot and moves
 	 */	
 	public void step()
-	{
+	{	
 		putFlower();
 		move();
 	}
